@@ -1,0 +1,9 @@
+label{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+input[type="submit"]{
+    border: none;
+}
