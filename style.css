@@ -1,9 +1,64 @@
-label{
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#author{
+    background-color: teal;
+    color: darkorange;
+    width: fit-content;
+    padding-right: 5%;
+}
+#author:hover{
+    background-color: darkorange;
+    color: teal;
+}
+.form-group label{
     display: block;
 }
-.flex{
-    display: flex;
+input[type="text"], [type="date"], [type="email"], [type="tel"]{
+    margin-bottom: 10px;
+    width: 100%;
 }
-input[type="submit"]{
+form{
+    display: block;
+    margin: 7% 30%;
+    
+}
+#btn{
+    background-color: darkorange;
+    padding: 5px 10px;
+    margin: 15px;
     border: none;
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    background-color: darkorchid;
+}
+footer{
+    text-align: center;
+}
+
+/* Table Survey form styling */
+
+.table{
+    margin: 0 30%;
+    text-align: left;
+}
+th{
+    width: 100px;
+}
+.table.row1{
+    background-color: darkorange;
+}
+.table.row2{
+    background-color: teal;
+}
+.table.row3{
+    background-color: darkorange;
+}
+.table.row4{
+    background-color: teal;
+}
+.table.row5{
+    background-color: darkorange;
 }
